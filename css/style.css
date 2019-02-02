@@ -56,7 +56,7 @@ label {
     height:100px;
     color:white;
     font-size: 20px;
-    
+
 }
 .mycol2{
     border:1px solid white;
@@ -68,15 +68,15 @@ label {
 }
 
 
-.col-6 
+.col-6
 {
     background: #5999D2 ;
     padding: 50px ;
-    border: 1px solid white 
+    border: 1px solid white
 }
 .text-thin
 
 {
     font-weight: 300;
-    
+
 }
