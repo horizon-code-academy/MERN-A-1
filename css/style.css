@@ -49,3 +49,34 @@ label {
         height: auto;
     }
 }
+
+.mycol1{
+    border:1px solid white;
+    background: linear-gradient(to right,#165E93,#229EFA);
+    height:100px;
+    color:white;
+    font-size: 20px;
+
+}
+.mycol2{
+    border:1px solid white;
+    background: linear-gradient(to right,#229EFA,white);
+    height:100px;
+}
+.bo{
+    font-weight: 500;
+}
+
+
+.col-6
+{
+    background: #5999D2 ;
+    padding: 50px ;
+    border: 1px solid white
+}
+.text-thin
+
+{
+    font-weight: 300;
+
+}
