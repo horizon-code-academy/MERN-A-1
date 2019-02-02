@@ -49,3 +49,15 @@ label {
         height: auto;
     }
 }
+
+.col-6 
+{
+    background: #5999D2 ;
+    padding: 50px ;
+    border: 1px solid white 
+}
+.text-thin
+{
+    font-weight: 300;
+    
+}
