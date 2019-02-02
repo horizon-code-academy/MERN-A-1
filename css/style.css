@@ -5,16 +5,12 @@ html, body {
     padding: 0;
     width: 100%;
     height: 100%;
+    background-color: #999;
     font-family: 'Roboto Condensed', sans-serif;
 }
 
 h1 ,h2, h3, h4, h5, h6 {
     color: #1f4e79;
-    font-weight: 700;
-}
-
-.white-bold{
-    color: #fff;
     font-weight: 700;
 }
 
@@ -30,16 +26,104 @@ label {
     font-weight: 700;
 }
 
-/* For meduim and large screen */
-@media only screen and (min-width: 768px) {
-    .title-img {
-        position: absolute;
-        z-index: 99;
-        top: -65px;
-        right: -50px;
-        width: 200px;
-        height: auto;
-    }
+.show-screen {
+    height: 600px;
+    background: rgba(255,255,255,1);
+    box-shadow: 0px 0px 50px 9px rgba(0,0,0,0.75);
+}
+
+.flying-btns {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%);
+    box-shadow: 0px 0px 50px 5px rgba(0,0,0,0.5);
+}
+
+.white-bold{
+    color: #fff;
+    font-weight: 700;
+}
+
+.text-blue-1 {
+    color: rgb(170, 215, 255);
+}
+
+.text-blue-2 {
+    color: #229EFA;
+}
+
+.text-blue-3 {
+    color: #5B9FE1
+}
+
+.text-blue-4 {
+    color: #165E93;
+}
+
+.text-black {
+    color: #000;
+}
+
+.text-white {
+    color: #fff;
+}
+
+.text-thin {
+    font-weight: 300;
+}
+
+.text-normal {
+    font-weight: 500;
+}
+
+.text-bolder {
+    font-weight: 700;
+}
+
+.title-top-left {
+    display: flex;
+    align-self: center;
+    color: rgb(170, 215, 255);
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 35px;
+}
+
+.title-top-left li.active {
+    margin-left: 35px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.title-top-right {
+    display: flex;
+    align-self: center;
+    color: #229EFA;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 35px;
+}
+
+.title-top-right li.active {
+    margin-left: 35px;
+    color: #165E93;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.title-text{
+    font-size: 3.5rem;
+}
+
+.title-img {
+    position: absolute;
+    z-index: 99;
+    top: -70px;
+    right: -50px;
+    width: 275px;
+    height: auto;
 }
 
 /* For mobiel (sm, xs) screen */
@@ -53,30 +137,12 @@ label {
 .mycol1{
     border:1px solid white;
     background: linear-gradient(to right,#165E93,#229EFA);
-    height:100px;
     color:white;
     font-size: 20px;
-
+    height:100px;
 }
 .mycol2{
     border:1px solid white;
     background: linear-gradient(to right,#229EFA,white);
     height:100px;
-}
-.bo{
-    font-weight: 500;
-}
-
-
-.col-6
-{
-    background: #5999D2 ;
-    padding: 50px ;
-    border: 1px solid white
-}
-.text-thin
-
-{
-    font-weight: 300;
-
 }
