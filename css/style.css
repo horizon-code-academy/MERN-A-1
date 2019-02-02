@@ -82,7 +82,8 @@ label {
 }
 
 .title-top-left {
-    padding: 35px 35px 0;
+    display: flex;
+    align-self: center;
     color: rgb(170, 215, 255);
     font-weight: 300;
     font-size: 18px;
@@ -97,7 +98,8 @@ label {
 }
 
 .title-top-right {
-    padding: 35px 35px 0;
+    display: flex;
+    align-self: center;
     color: #229EFA;
     font-weight: 300;
     font-size: 18px;
