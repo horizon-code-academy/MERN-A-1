@@ -18,6 +18,7 @@ h1 ,h2, h3, h4, h5, h6 {
     font-weight: 700;
 }
 
+
 .blue-gradient-v {
     background: linear-gradient(to bottom, #1f4e79 0%,#2989d8 50%,#fff 100%);
 }
@@ -49,6 +50,13 @@ label {
         height: auto;
     }
 }
+.col-md-6{border: 1px solid white}
+.number li::before{font-weight: bold;
+}
+}
+
+
+
 <<<<<<< HEAD
 
 .col-6 
@@ -64,3 +72,4 @@ label {
 }
 =======
 >>>>>>> f1fc777994a62778e685e31d01ce791924fdbafb
+
