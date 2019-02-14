@@ -140,17 +140,3 @@ label {
         height: auto;
     }
 }
-
-.mycol1{
-    border:1px solid white;
-    background: linear-gradient(to right,#165E93,#229EFA);
-    color:white;
-    font-size: 20px;
-    height:100px;
-}
-
-.mycol2{
-    border:1px solid white;
-    background: linear-gradient(to right,#229EFA,white);
-    height:100px;
-}
